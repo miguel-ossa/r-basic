@@ -1,3 +1,8 @@
+# Assignment
+setwd("D:/Documents/Estudios/Estudios MOOC/Udemy/Estadística Descriptiva/repositorio/r-basic_mossa")
+options(width=100)
+options(digits=10)
+
 SegundoGrado = function(a,b,c) {
   x1=((-b)+(sqrt((b^2)-4*a*c)))/(2*a);
   x2=((-b)-(sqrt((b^2)-4*a*c)))/(2*a);

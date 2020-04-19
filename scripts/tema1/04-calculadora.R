@@ -1,3 +1,8 @@
+# Calculadora
+setwd("D:/Documents/Estudios/Estudios MOOC/Udemy/Estadística Descriptiva/repositorio/r-basic_mossa")
+options(width=100)
+options(digits=10)
+
 2*(3+5/2)
 
 2*((3+5)/2)
@@ -152,7 +157,7 @@ x = x^2
 
 x = sqrt(x)
 
-## FunciÃ³n f(x) = x^3 - (3^x)* sen(x)
+## Función f(x) = x^3 - (3^x)* sen(x)
 f = function(x) {
   x^3 - (3^x) * sin(x)
 }
@@ -214,14 +219,14 @@ z1
 sqrt(-5)
 sqrt(as.complex(-5))
 
-#La raÃ­z cuadrada devuelve, de las dos soluciones la de
+#La raíz cuadrada devuelve, de las dos soluciones la de
 #Re(z)>0, para obtener la otra,  hay que multiplicar por -1
 sqrt(3+2i) # z^2 = 3+2i
 exp(3+2i)
 sin(3+2i)
 cos(3+2i)
 
-#MÃ³dulo = sqrt(Re(z)^2 + Im(z)^2)
+#Módulo = sqrt(Re(z)^2 + Im(z)^2)
 Mod(z1)
 #Argumento = arctan(Im(z)/Re(z))
 # = arccos(Re(z)/Mod(z))

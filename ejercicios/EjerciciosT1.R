@@ -1,3 +1,8 @@
+# Ejercicios
+setwd("D:/Documents/Estudios/Estudios MOOC/Udemy/Estadística Descriptiva/repositorio/r-basic_mossa")
+options(width=100)
+options(digits=10)
+
 opBasic = function(a,b){
   print("Suma")
   print(a+b)
