@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1548347184859.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3637745213",
+    "id" : "C781E101",
+    "lastKnownWriteTime" : 1548239164,
+    "last_content_update" : 1548239164,
+    "path" : "~/Estudios/Estudios MOOC/Udemy/Estadística Descriptiva/repositorio/r-basic_mossa/scripts/tema1/01-test.R",
+    "project_path" : "scripts/tema1/01-test.R",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
