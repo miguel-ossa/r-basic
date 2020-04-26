@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587660094981.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4205384338",
+    "id" : "7400DA0E",
+    "lastKnownWriteTime" : 1548238105,
+    "last_content_update" : 1548238105,
+    "path" : "~/Estudios/Estudios MOOC/Udemy/Estadística Descriptiva/repositorio/r-basic_mossa/scripts/tema2/01-EjemploRMD.Rmd",
+    "project_path" : "scripts/tema2/01-EjemploRMD.Rmd",
+    "properties" : {
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

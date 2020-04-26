@@ -1,0 +1,35 @@
+---
+title: "R & Python"
+author: "Miguel de la Ossa"
+date: "23/04/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Reticulate
+
+La librería "reticulate" sirve para combinar $R$ y Python.
+
+```{r comment=NA}
+install.packages("reticulate", repos = "http://cran.us.r-project.org")
+library(reticulate)
+#use_python("D:/dev/anaconda3/python.exe")
+os <- import("os")
+os$listdir(".")
+```
+
+```{r}
+source_python("add.py")
+add(3,5)
+```
+---
+```{r}
+np <- import("numpy", convert = FALSE)
+x <- numpy$array(c(1:4))
+sum <- x$cumsum()
+print(sum)
+```
+---

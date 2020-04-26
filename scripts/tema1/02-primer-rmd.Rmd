@@ -5,6 +5,8 @@ date: "11/12/2018"
 output:
   html_document:
     df_print: paged
+  pdf_document: 
+    keep_tex: yes
 ---
 
 ```{r setup, include=FALSE}

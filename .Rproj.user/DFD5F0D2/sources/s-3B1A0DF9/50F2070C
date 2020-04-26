@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587482257109.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "50F2070C",
+    "lastKnownWriteTime" : 1587574560,
+    "last_content_update" : 1587574560858,
+    "path" : "~/Estudios/Estudios MOOC/Udemy/Estadística Descriptiva/repositorio/r-basic_mossa/teoria/Tema2.Rmd",
+    "project_path" : "teoria/Tema2.Rmd",
+    "properties" : {
+        "cursorPosition" : "31,0",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

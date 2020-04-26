@@ -1,0 +1,67 @@
+---
+title: "Los números"
+
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+El conjunto de los números es: $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \mathbb{C}$, 
+donde $\mathbb{R} = \mathbb{Q} \cup \mathbb{I}$.
+
+Los números irracionales surgen del problema de calcular la hipotenusa de un triángulo rectángulo de catetos de longitud 1: $h^2 = 1^2 + 1^2 = 2$. Por lo tanto, da $h^2 = 2$, y esto se resuelve como $h = \sqrt{2}$, siendo éste un número irracional.
+
+Los números complejos ($\mathbb{C}$) aparecen como resultado de la resolución de ecuaciones como esta: $x^2=-1$. Para ello, se crea un nuevo número: $\sqrt{-1}$, pues esta es la solución $x = \sqrt{-1}$. A este número se le asigna el símbolo $i$. Su forma binómica de representación es $z=a+bi$.
+
+## Los números complejos
+
+La forma binómica es $z=a+bi$.
+
+El número imaginario: $i=\sqrt{-1}$.
+
+![](./imagenes/complejos.png)
+
+El conjugado de un número complejo, $z=a+bi$, es otro número complejo con la misma parte real, 
+pero con la parte imaginaria cambiada de signo. El conjugado de un número complejo $z$ se representa como $\bar{z}$. Se utiliza principalmente para dividir números complejos.
+
+El conjugado de $z=1+2i$ es $z=1-2i$.
+
+![](./imagenes/conjugado.png)
+
+### Forma polar
+
+![](./imagenes/forma_polar.png)
+
+La representación de un número complejo en forma polar es la siguiente: $R_{\theta}$.
+
+La distancia del punto $(a,b)$ al origen de coordenadas se denomina **magnitud** o **módulo**, y se representa como $r$. Se obtiene haciendo uso del teorema de Pitágoras: $r=\sqrt{a^2+b^2}$.
+
+La relación que se establece entre el ángulo que forma la recta que une los puntos $(a,b)$ y $(0,0)$ con el eje positivo de las $x$ y el punto $(a,b)$ está determinada por la expresión:
+
+$$\tan(\theta)=\frac{b}{a}$$
+
+Por tanto, $\theta$ se puede obtener con la expresión:
+
+$\theta = \arctan \left( \frac{b}{a} \right)$, si $a$ (parte real) es positiva, o bien
+
+
+$\theta = \arctan \left( \frac{b}{a} \right) + \pi$, si $a$ es negativa y $b$ (parte imaginaria) es positiva, o bien
+
+$\theta = \arctan \left( \frac{b}{a} \right) - \pi$, si $a$ es negativa y $b$ también es negativa.
+
+En todos los casos, obtendremos un ángulo $\theta$ dentro del intervalo $[-\pi, \pi]$.
+
+### De la forma polar a la forma binómica
+
+La equivalencia entre la forma polar y la forma binómica de un número complejo es:
+
+$$r_{\theta} = r \cos(\theta) + r \sin(\theta)i = r(cos(\theta) + sin(\theta)i)$$
+
+$\theta$   |  0  |  $\pi/6$  |  $\pi/4$  |  $\pi/3$  |  $\pi/2$  
+-----------|-----|-----------|-----------|-----------|-----------
+$\sin(\theta)$  | 0 | $1/2$ | $\sqrt{2}/2$ | $\sqrt{3}/2$ | $1$
+$\cos(\theta)$  | 1 | $\sqrt{3}/2$ | $\sqrt{2}/2$ | $1/2$ | $0$
+
+![](./imagenes/relaciones_trigo.png)

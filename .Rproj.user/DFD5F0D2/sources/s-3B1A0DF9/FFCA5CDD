@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1587827986369.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "FFCA5CDD",
+    "lastKnownWriteTime" : 1548238106,
+    "last_content_update" : 1548238106,
+    "path" : "~/Estudios/Estudios MOOC/Udemy/Estadística Descriptiva/repositorio/r-basic_mossa/scripts/tema2/02-Documentacion.Rmd",
+    "project_path" : "scripts/tema2/02-Documentacion.Rmd",
+    "properties" : {
+        "cursorPosition" : "47,38",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
