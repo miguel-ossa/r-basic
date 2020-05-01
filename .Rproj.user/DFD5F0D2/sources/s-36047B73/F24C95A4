@@ -5,13 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2354771304",
+    "hash" : "0",
     "id" : "F24C95A4",
     "lastKnownWriteTime" : 1548239164,
     "last_content_update" : 1548239164,
     "path" : "~/Estudios/Estudios MOOC/Udemy/Estadística Descriptiva/repositorio/r-basic_mossa/teoria/Tema3.Rmd",
     "project_path" : "teoria/Tema3.Rmd",
     "properties" : {
+        "cursorPosition" : "5,4",
+        "scrollLine" : "0"
     },
     "read_only" : false,
     "read_only_alternatives" : [
